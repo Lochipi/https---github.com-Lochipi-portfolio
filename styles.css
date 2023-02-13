@@ -146,7 +146,7 @@ a:hover {
 /* about */
 
 .about {
-    height: 80vh;
+    /* height: 80vh; */
     width: 100%;
     background-color: #0D1117;
 }
@@ -177,7 +177,8 @@ a:hover {
     border: 2px solid whitesmoke;
     width: 150px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     padding: 15px;
     border-radius: 5px;
     transition: .3s all ease ;
