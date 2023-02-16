@@ -75,7 +75,8 @@ a:hover {
   height: 65vh;
   width: 100%;
   margin-top: 80px;
-  background-image: url(images/hero.jpg);
+  /* background-image: url(images/hero.jpg); */
+  background-color: #1c2531;
   /* object-fit: cover; */
   /* background-position: right; */
   background-position: left;
@@ -202,7 +203,6 @@ a:hover {
 /* portfolio page */
 
 .portfolio {
-  /* height: 70vh; */
   background-color: #1E293B;
 }
 
@@ -213,19 +213,46 @@ a:hover {
 }
 
 .border_bottom {
-  border: 2px solid black;
+  border: 2px solid green;
   width: 200px;
   margin: auto;
 }
 
+/* skills form */
+.skills{
+  background-color: #1c2531;
+  color: whitesmoke;
+}
+
+.skills-header h1{
+  color: purple;
+  font-weight: 700;
+  /* font-size: 90px; */
+}
+
+.skills-description p{
+  color: whitesmoke;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px;
+}
+
+.skills_lists h2{
+  font-size: 80px;
+}
+
+.skills-description{
+  font-size: 20px;
+}
 /* contact form */
 
 .contact_page {
-  background-color: #4980d3;
+  background-color: #1c2531;
 }
 
 .submit-btn {
-  padding: 15px 35px;
+  padding: 15px 45px;
   background: #1e293b;
   color: #fff;
   transition: 0.3s all ease;
