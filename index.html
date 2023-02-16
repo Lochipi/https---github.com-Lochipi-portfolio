@@ -32,14 +32,14 @@
     </nav>
 
     <section class="hero">
-        <div class="container-hero">
+        <div class="container">
             <div class="hero-left">
                 <h4 class="icon-para"><span>&#128075</span> Hello there,</h4>
                 <header>
 
-                    <h1>Hello,<br> I'm Cornelius Emase.</h1>
+                    <h1>Hello,<br>I'm Cornelius Emase.</h1>
 
-                    <h2>I'm a Software Engineer!</h2>
+                    <h2 class="text-white-50">I'm a Software Engineer!</h2>
                 </header>
 
                 <div class="social-icons">
@@ -47,15 +47,20 @@
                     <a href="#"><i class="fa-brands fa-github"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
+
+                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                    <!-- <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a> -->
+                    <a class="btn btn-outline-light btn-lg px-4" href="#!">About Me</a>
+                </div>
             </div>
 
             <div class="hero-right">
-                <div class="download-resume">
+                <!-- <div class="download-resume">
                     <a href="#" download="resume">
                         Download Resume
                         <i class="fa-solid fa-download"></i>
                     </a>
-                </div>
+                </div> -->
             </div>
 
         </div>
@@ -128,52 +133,132 @@
         </div>
     </section>
 
-    <div class="container bg-secondary">
-        <h1 class="font-weight-bold text-center my-5">Contact Me</h1>
-        <p class="text-center mx-auto mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-            minus possimus nemo aliquid velit officia optio eaque neque, placeat deserunt cumque provident in! Impedit
-            voluptatibus, nihil dolor voluptatem ipsam optio?</p>
-        <div class="row">
-            <div class="col-md-3">
-                <ul>
-                    <li><i class="fa-sharp fa-solid fa-location-dot"></i>
-                        <p>75-10200,Murang'a</p>
-                    </li>
-                    <li><i class="fa-sharp fa-solid fa-envelope-circle-check"></i>
-                        <P>corneliuslochipi@gmail.com</P>
-                    </li>
-                    <li><i class="fa-sharp fa-solid fa-phone-volume"></i>
-                        <p>254 11 560 7857</p>
-                    </li>
-                </ul>
+    <section class="portfolio">
+        <header>
+            <h1>Projects</h1>
+            <div class="border_bottom"></div>
+        </header>
+        <p class="text-center text-white-50">
+            I have been participating on open source projects and so am working on my own projects now, coming soon.Keep
+            checking!
+        </p>
+        <div class="row gx-5">
+            <div class="col-lg-4 mb-5 ml-5">
+                <div class="card h-100 shadow border-0">
+                    <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">Login Page</div>
+                        <a class="text-decoration-none link-dark stretched-link" href="#!">
+                            <h5 class="card-title mb-3">A simple login page with validation</h5></a>
+                        <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                <div class="small">
+                                    <div class="fw-bold">Josiah Barclay</div>
+                                    <div class="text-muted">March 23, 2022 &middot; 4 min read</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-md-9">
-                <form>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="name">
-                                <label for="name">Your Name:</label>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                                <label for="email">Email address</label>
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                    <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">Media</div>
+                        <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Another blog post title</h5></a>
+                        <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                <div class="small">
+                                    <div class="fw-bold">Josiah Barclay</div>
+                                    <div class="text-muted">March 23, 2022 &middot; 4 min read</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <textarea class="form-control" id="yourmessage" rows="3"></textarea>
-                        <label for="yourmessage">Your Message</label>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                    <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">Media</div>
+                        <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Another blog post title</h5></a>
+                        <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <button type="submit" class="btn my-5 btn-primary">Send</button>
-                </form>
+                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                <div class="small">
+                                    <div class="fw-bold">Josiah Barclay</div>
+                                    <div class="text-muted">March 23, 2022 &middot; 4 min read</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
+    <!-- contact page -->
+    <section class="contact_page">
+        <div class="container text-white">
+            <h1 class="font-weight-bold text-center py-5">Contact Me</h1>
+            <p class="text-center mx-auto mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                minus possimus nemo aliquid velit officia optio eaque neque, placeat deserunt cumque provident in!
+                Impedit
+                voluptatibus, nihil dolor voluptatem ipsam optio?</p>
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                    <ul>
+                        <li><i class="fa-sharp fa-solid fa-location-dot"></i>
+                            <p>75-10200,Murang'a</p>
+                        </li>
+                        <li><i class="fa-sharp fa-solid fa-envelope-circle-check"></i>
+                            <P>corneliuslochipi@gmail.com</P>
+                        </li>
+                        <li><i class="fa-sharp fa-solid fa-phone-volume"></i>
+                            <p>254 11 560 7857</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-9 col-lg-9 col-xl-9">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name">
+                                    <label for="name">Your Name:</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                    <label for="email">Email address</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="yourmessage" rows="3"></textarea>
+                            <label for="yourmessage">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn my-5 submit-btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="footer">
         <p>Designed and powered by <span class="myname">EmHub</span> | Have a Nice
             <span id="displaydate"></span>
