@@ -251,6 +251,12 @@ a:hover {
   background-color: #1c2531;
 }
 
+#yourmessage, #email, #name{
+  background-color: #1c2531;
+  color: whitesmoke;
+  padding: 10px;
+}
+
 .submit-btn {
   padding: 15px 45px;
   background: #1e293b;
