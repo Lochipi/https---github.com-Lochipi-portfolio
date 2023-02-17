@@ -163,7 +163,8 @@ a:hover {
 }
 
 .about-right {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  margin: 50px auto;
 }
 
 .icons i {
@@ -203,7 +204,7 @@ a:hover {
 /* portfolio page */
 
 .portfolio {
-  background-color: #1E293B;
+  background-color: #1e293b;
 }
 
 .portfolio header h1 {
@@ -219,18 +220,18 @@ a:hover {
 }
 
 /* skills form */
-.skills{
+.skills {
   background-color: #1c2531;
   color: whitesmoke;
 }
 
-.skills-header h1{
+.skills-header h1 {
   color: purple;
   font-weight: 700;
   /* font-size: 90px; */
 }
 
-.skills-description p{
+.skills-description p {
   color: whitesmoke;
   font-size: larger;
   font-weight: bold;
@@ -238,11 +239,11 @@ a:hover {
   padding: 40px;
 }
 
-.skills_lists h2{
+.skills_lists h2 {
   font-size: 80px;
 }
 
-.skills-description{
+.skills-description {
   font-size: 20px;
 }
 /* contact form */
@@ -251,7 +252,9 @@ a:hover {
   background-color: #1c2531;
 }
 
-#yourmessage, #email, #name{
+#yourmessage,
+#email,
+#name {
   background-color: #1c2531;
   color: whitesmoke;
   padding: 10px;
