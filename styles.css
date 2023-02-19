@@ -71,31 +71,6 @@ a:hover {
 
 /* hero section */
 
-.hero {
-  height: 65vh;
-  width: 100%;
-  margin-top: 80px;
-  /* background-image: url(images/hero.jpg); */
-  background-color: #1c2531;
-  /* object-fit: cover; */
-  /* background-position: right; */
-  background-position: left;
-}
-
-.hero h1 {
-  color: whitesmoke;
-}
-
-.container-hero {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.hero-left {
-  float: left;
-  width: 60%;
-}
-
 .icon-para {
   border: 1px solid white;
   width: 150px;
@@ -118,6 +93,17 @@ a:hover {
 
 .social-icons a {
   color: whitesmoke;
+}
+
+.social-icons a i{
+  font-size: 30px;
+  color: purple;
+  padding-right: 10px;
+  transition: all ease;
+}
+
+.social-icons a i:hover{
+  color: blueviolet;
 }
 
 .hero-right {
