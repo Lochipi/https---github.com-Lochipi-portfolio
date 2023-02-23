@@ -37,9 +37,9 @@
             <div class="row gx-5 mt-5 align-items-center justify-content-center">
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
                     <div class="my-5 text-xl-start">
-                      <div class="hello">
-                        <h4 class="icon-para my-4 p-2"><span>&#128075</span> Hello there,</h4>
-                      </div>
+                        <div class="hello">
+                            <h4 class="icon-para my-4 p-2"><span>&#128075</span> Hello there,</h4>
+                        </div>
                         <h1 class="display-5 fw-bolder text-white mb-2">Hi, <br> I'm Cornelius Emase</h1>
                         <p class="lead fw-normal text-white-50 mb-4">I'm a Software Engineer! and A Data Enthuasist</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
@@ -52,8 +52,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-xxl-6 text-center"><img class="img-fluid rounded-3 my-5" src="images/profile.jpg" alt="..." style="height: 28rem; object-fit: cover;"/>
-                    
+                <div class="col-xl-5 col-xxl-6 text-center"><img class="img-fluid rounded-3 my-5"
+                        src="images/profile.jpg" alt="..." style="height: 28rem; object-fit: cover;" />
+
                 </div>
             </div>
         </div>
@@ -224,72 +225,95 @@
 
     <section class="skills">
         <div class="container">
-          <div class="col-lg-12">
-            <header class="skills-header">
-                <h1 class="text-center font-weight-bold pt-5">skills</h1>
-            </header>
+            <div class="col-lg-12">
+                <header class="skills-header">
+                    <h1 class="text-center font-weight-bold pt-5">skills</h1>
+                </header>
 
-            <div class="skills_lists">
-                <h2 class="text-center py-5">Skills here!</h2>
-            </div>
-
-            <div class="skills-description">
-                <p>I'm a competent Engineer and a fast learner.</p> 
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!-- contact page -->
-    <section class="contact_page">
-        <div class="container text-white">
-            <h1 class="font-weight-bold text-center py-5">Contact Me</h1>
-            <p class="text-center mx-auto mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                minus possimus nemo aliquid velit officia optio eaque neque, placeat deserunt cumque provident in!
-                Impedit
-                voluptatibus, nihil dolor voluptatem ipsam optio?</p>
-            <div class="row">
-                <div class="col-md-3 col-lg-3 col-xl-3">
-                    <ul>
-                        <li><i class="fa-sharp fa-solid fa-location-dot"></i>
-                            <p>75-10200,Murang'a</p>
-                        </li>
-                        <li><i class="fa-sharp fa-solid fa-envelope-circle-check"></i>
-                            <P>corneliuslochipi@gmail.com</P>
-                        </li>
-                        <li><i class="fa-sharp fa-solid fa-phone-volume"></i>
-                            <p>254 11 560 7857</p>
-                        </li>
-                    </ul>
+                <div class="skills_lists">
+                    <h2 class="text-center py-5">Skills here!</h2>
                 </div>
 
-                <div class="col-md-9 col-lg-9 col-xl-9">
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name">
-                                    <label for="name">Your Name:</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                                    <label for="email">Email address</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea class="form-control" id="yourmessage" rows="3"></textarea>
-                            <label for="yourmessage">Your Message</label>
-                        </div>
-                        <!-- <a class="btn btn-outline-light btn-lg px-4" href="#!">About Me</a> -->
-                        <button type="submit" class="btn my-5 submit-btn">Send</button>
-                    </form>
+                <div class="skills-description">
+                    <p>I'm a competent Engineer and a fast learner.</p>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <!-- ======= Contact Section ======= -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">Contact Me</h3>
+                <p class="section-description">To reach out to me please don't essitate to send me a message about your
+                    intrest</p>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+
+                <div class="col-lg-4 col-md-4 mx-auto">
+
+                    <div>
+                        <div class="state-address">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            <p class="text-center">Umoja Street<br>Nairobi, NBO 00100</p>
+                        </div>
+
+                        <div class="email-adress">
+                            <i class="fa-sharp fa-solid fa-envelope-circle-check"></i>
+                            <p>Email address: <br>corneliuslochipi@gmail.com</p>
+                        </div>
+
+                        <div class="phone-no">
+                            <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                            <p>Phone Number: <br>+254 11 607 857</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-8 mt-4">
+                    <div class="form">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Enter you name">
+                                        <label for="name" class="text-white-50 mt-2">Your Name:</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                            placeholder="Email">
+                                        <label for="email" class="text-white-50 mt-2">Email address</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                    required></textarea>
+                            </div>
+                            <div class="submit-form-btn">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Contact Section -->
+
     <div class="footer">
         <p>Designed and powered by <span class="myname">EmHub</span> | Have a Nice
             <span id="displaydate"></span>
