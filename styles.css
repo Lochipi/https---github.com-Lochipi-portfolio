@@ -243,6 +243,15 @@ button {
 button:hover {
   background-color: #3e8e41;
 }
+.skills-icons i{
+  transition: .4s all ease;
+}
+.skills-icons i:hover{
+  border: 2px solid #8e18a9;
+  transform: scale(1.09);
+  color: rgb(91, 38, 38);
+  border-radius: 5px;
+}
 
 .skills-description p {
   color: whitesmoke;
