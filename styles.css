@@ -95,14 +95,14 @@ a:hover {
   color: whitesmoke;
 }
 
-.social-icons a i{
+.social-icons a i {
   font-size: 30px;
   color: purple;
   padding-right: 10px;
   transition: all ease;
 }
 
-.social-icons a i:hover{
+.social-icons a i:hover {
   color: blueviolet;
 }
 
@@ -207,14 +207,41 @@ a:hover {
 
 /* skills form */
 .skills {
-  background-color: #1c2531;
-  color: whitesmoke;
+  background-color: #5875a3;
 }
 
-.skills-header h1 {
+.languages,
+.frameworks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-icons i {
+  font-size: 9em;
   color: purple;
-  font-weight: 700;
-  /* font-size: 90px; */
+  margin: 20px 30px;
+  border: 2px solid rgb(167, 167, 52);
+  padding: 20px 35px;
+}
+
+.btn-skills {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #3e8e41;
 }
 
 .skills-description p {
@@ -246,14 +273,16 @@ a:hover {
   text-transform: uppercase;
 }
 
-.section-header p{
-  font-style: italic; 
+.section-header p {
+  font-style: italic;
   color: whitesmoke;
   text-align: center;
   font-weight: 700;
 }
 
-.state-address p, .email-adress p, .phone-no p {
+.state-address p,
+.email-adress p,
+.phone-no p {
   color: whitesmoke;
   text-align: center;
   font-size: 20px;
@@ -262,7 +291,7 @@ a:hover {
 .state-address,
 .email-adress,
 .phone-no {
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   border: 1px solid rgb(121, 128, 62);
   color: whitesmoke;
   margin: auto;
@@ -279,17 +308,17 @@ a:hover {
   margin: 10px 0;
 }
 
-.submit-form-btn button{
+.submit-form-btn button {
   padding: 15px;
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   color: whitesmoke;
   margin: 20px 0;
   border-radius: 10px;
   border: 1px solid rgb(121, 128, 62);
-  transition: .3s all ease;
+  transition: 0.3s all ease;
 }
 
-.submit-form-btn button:hover{
+.submit-form-btn button:hover {
   transform: scale(1.09);
 }
 
@@ -403,7 +432,7 @@ a:hover {
     flex-wrap: wrap;
     width: 90%;
   }
-  .contact_page{
+  .contact_page {
     grid-template-columns: 1fr;
     width: 100%;
     margin: auto;
