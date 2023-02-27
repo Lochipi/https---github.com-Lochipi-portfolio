@@ -205,6 +205,41 @@ a:hover {
   margin: auto;
 }
 
+.projects-left h1{
+  font-size: 60px;
+  color: purple;
+  font-weight: 600;
+  padding: 40px 0;
+}
+
+.projects-left p{
+  font-size: 25px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+.project-desc{
+  border-left: 3px solid rgb(79, 39, 79);
+}
+
+.line-at-top {
+  border-top: 3px solid rgb(32, 27, 27);
+  border-left: 3px solid black;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-top-left-radius: 20px;
+  width: 25%;
+  height: 230px;
+}
+.line-at-top p{
+  padding: 5px;
+}
+.line-at-top p a{
+  text-decoration: none;
+}
+.project-right{
+  margin: auto;
+}
+
 /* skills form */
 .skills {
   background-color: #5875a3;
@@ -243,10 +278,10 @@ button {
 button:hover {
   background-color: #3e8e41;
 }
-.skills-icons i{
-  transition: .4s all ease;
+.skills-icons i {
+  transition: 0.4s all ease;
 }
-.skills-icons i:hover{
+.skills-icons i:hover {
   border: 2px solid #8e18a9;
   transform: scale(1.09);
   color: rgb(91, 38, 38);
@@ -354,6 +389,11 @@ button:hover {
   nav ul li a {
     font-size: 16px;
   }
+  /* projects */
+  .project-right h1{
+    display: flex;
+    justify-content: flex-start;
+  }
 
   .footer p {
     font-size: medium;
@@ -386,6 +426,14 @@ button:hover {
 
   #check:checked ~ ul {
     left: 0;
+  }
+  /* projects */
+  .project-right h1{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .line-at-top p{
+    font-size: 20px;
   }
 
   .footer p {
@@ -445,5 +493,29 @@ button:hover {
     grid-template-columns: 1fr;
     width: 100%;
     margin: auto;
+  }
+  /* projects section */
+  .project-right h1{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .line-at-top {
+    width: 50%;
+    height: 220px;
+  }
+  .line-at-top p{
+    font-size: 18px;
+  }
+  .projects-left h1{
+    font-size: 40px;
+  }
+  .projects-left p{
+    font-size: 18px;
+  }
+}
+@media (max-width: 300px){
+  .project-right h1{
+    display: flex;
+    justify-content: flex-start;
   }
 }
