@@ -69,7 +69,7 @@ a:hover {
 
 /* hero section */
 .hero {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .icon-para {
   border: 1px solid white;
@@ -272,14 +272,17 @@ a:hover {
   padding-top: 10px;
   padding-left: 10px;
   border-top-left-radius: 10px;
-  width: 25%;
+  width: 35%;
   height: 230px;
 }
 .line-at-top p {
   padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
 }
 .line-at-top p a {
   text-decoration: none;
+  color: whitesmoke;
 }
 .project-right {
   margin: auto;
